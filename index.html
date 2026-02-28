@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Apps"
+---
+<section class="hero">
+  <h1 class="hero__title">Apps built with <em>purpose.</em></h1>
+  <p class="hero__subtitle">
+    We're a small, independent studio making focused React Native apps
+    for iOS and Android.
+  </p>
+</section>
+
+<section class="app-list">
+  {% for app in site.apps %}
+    {% include app-card.html %}
+  {% endfor %}
+</section>

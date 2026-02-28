@@ -1,0 +1,25 @@
+<article class="app-card">
+  {% if app.icon %}
+  <img class="app-card__icon" src="{{ app.icon | relative_url }}" alt="{{ app.title }} icon" />
+  {% else %}
+  <div class="app-card__icon-placeholder" aria-hidden="true">♛</div>
+  {% endif %}
+  <div class="app-card__body">
+    <h2 class="app-card__title">
+      <a href="{{ app.url | relative_url }}">{{ app.title }}</a>
+    </h2>
+    <p class="app-card__tagline">{{ app.tagline }}</p>
+    <p class="app-card__description">{{ app.description }}</p>
+    <div class="app-card__links">
+      {% if app.app_store_url %}
+      <a class="badge badge--appstore" href="{{ app.app_store_url }}" target="_blank" rel="noopener">App Store</a>
+      {% endif %}
+      {% if app.play_store_url %}
+      <a class="badge badge--playstore" href="{{ app.play_store_url }}" target="_blank" rel="noopener">Google Play</a>
+      {% endif %}
+      {% if app.privacy_policy %}
+      <a class="app-card__privacy-link" href="{{ app.privacy_policy | relative_url }}">Privacy Policy</a>
+      {% endif %}
+    </div>
+  </div>
+</article>

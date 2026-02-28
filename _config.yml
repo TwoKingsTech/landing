@@ -1,0 +1,27 @@
+title: "Two Kings Tech"
+description: "Mobile apps crafted with care."
+company_legal: "Code Trade Kft"
+company_country: "Hungary"
+email: "contact@twokingstech.com"
+url: ""
+baseurl: ""
+
+collections:
+  apps:
+    output: true
+    permalink: /apps/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "apps"
+    values:
+      layout: "app"
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

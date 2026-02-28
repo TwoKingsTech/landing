@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="app-detail">
+  <div class="app-detail__header">
+    {% if page.icon %}
+    <img class="app-detail__icon" src="{{ page.icon | relative_url }}" alt="{{ page.title }} icon" />
+    {% endif %}
+    <div>
+      <h1 class="app-detail__title">{{ page.title }}</h1>
+      <p class="app-detail__tagline">{{ page.tagline }}</p>
+      <div class="app-detail__badges">
+        {% if page.app_store_url %}
+        <a class="badge badge--appstore" href="{{ page.app_store_url }}" target="_blank" rel="noopener">
+          App Store
+        </a>
+        {% endif %}
+        {% if page.play_store_url %}
+        <a class="badge badge--playstore" href="{{ page.play_store_url }}" target="_blank" rel="noopener">
+          Google Play
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="app-detail__body">
+    {{ content }}
+  </div>
+
+  {% if page.privacy_policy %}
+  <div class="app-detail__privacy">
+    <a href="{{ page.privacy_policy | relative_url }}">Privacy Policy</a>
+  </div>
+  {% endif %}
+</div>

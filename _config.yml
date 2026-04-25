@@ -1,9 +1,9 @@
-title: "Two Kings Tech"
+title: "Well Done Systems"
 description: "Mobile apps crafted with care."
 company_legal: "Code Trade Kft"
 company_country: "Hungary"
-email: "contact@twokingstech.com"
-url: ""
+email: "contact@twokingstech.com" # TODO: update to new email once well-done.systems mailbox is set up
+url: "https://well-done.systems"
 baseurl: ""
 
 collections:
@@ -25,3 +25,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - vendor

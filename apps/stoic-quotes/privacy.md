@@ -9,7 +9,7 @@ permalink: /apps/stoic-quotes/privacy/
 
 ## Who we are
 
-Stoic Quotes is developed and maintained by **Code Trade Kft**, a limited company registered in Hungary. We operate under the brand name **Two Kings Tech**.
+Stoic Quotes is developed and maintained by **Code Trade Kft**, a limited company registered in Hungary. We operate under the brand name **Well Done Systems**.
 
 Contact: [{{ site.email }}](mailto:{{ site.email }})
 

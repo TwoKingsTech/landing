@@ -75,8 +75,7 @@ main.container { flex: 1; }
   letter-spacing: -0.02em;
 }
 
-.site-header__crown {
-  font-size: 1.3rem;
+.site-header__name-accent {
   color: var(--amber);
 }
 

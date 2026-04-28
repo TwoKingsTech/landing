@@ -1,11 +1,12 @@
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="site-header__brand" href="{{ '/' | relative_url }}">
-      <span class="site-header__crown" aria-hidden="true">♛</span>
-      <span class="site-header__name">{{ site.title }}</span>
+      <span class="site-header__name">{% assign brand_words = site.title | split: " " %}{% for w in brand_words %}{% if forloop.last %}<span class="site-header__name-accent">{{ w }}</span>{% else %}{{ w }} {% endif %}{% endfor %}</span>
     </a>
     <nav class="site-nav">
       <a href="{{ '/' | relative_url }}">Apps</a>
+      <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a href="{{ '/terms/' | relative_url }}">Terms</a>
       <a href="{{ '/contact/' | relative_url }}">Contact</a>
     </nav>
   </div>

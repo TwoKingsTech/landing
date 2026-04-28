@@ -1,21 +1,19 @@
 ---
 layout: privacy
-title: "Stoic Quotes — Privacy Policy"
+title: "Stoic Quotes — Privacy Notice"
 app_name: "Stoic Quotes"
 app_url: /apps/stoic-quotes/
-updated: "2026-03-01"
+updated: "2026-04-27"
 permalink: /apps/stoic-quotes/privacy/
 ---
 
-## Who we are
+This is the **Stoic Quotes** Privacy Notice. It lists what data this app stores on your device and which third-party services it integrates.
 
-Stoic Quotes is developed and maintained by **Code Trade Kft**, a limited company registered in Hungary. We operate under the brand name **Well Done Systems**.
-
-Contact: [{{ site.email }}](mailto:{{ site.email }})
+For our overall approach to privacy, your data rights, and company details, see the general [Privacy Policy]({{ '/privacy/' | relative_url }}).
 
 ---
 
-## Data we store on your device
+## Data this app stores on your device
 
 Stoic Quotes stores the following data **locally on your device only**, using the operating system's sandboxed local storage. This data never leaves your device and is never transmitted to us or any server we operate.
 
@@ -34,9 +32,9 @@ Stoic Quotes stores the following data **locally on your device only**, using th
 
 ---
 
-## Third-party services
+## Third-party services in this app
 
-While we do not collect or transmit your data ourselves, Stoic Quotes integrates two third-party SDKs that may collect data independently under their own privacy policies.
+Stoic Quotes integrates two third-party SDKs that may collect data independently under their own privacy policies.
 
 ### Google AdMob (advertising)
 
@@ -76,26 +74,12 @@ You can disable notifications at any time in **Settings → Notifications → St
 
 ---
 
-## Children's privacy
+## Your rights and general privacy questions
 
-Stoic Quotes is not directed at children under 13 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect information from children. If you believe a child has provided information through the app, please contact us.
-
----
-
-## Your rights
-
-Depending on your location, you may have rights under GDPR (EU/EEA), UK GDPR, CCPA (California), or other applicable laws, including the right to access, correct, or delete your data. Since all data we control is stored locally on your device, you can exercise these rights at any time simply by editing your settings in-app or deleting the app.
-
-For questions relating to data processed by Google AdMob or Sentry, please refer to their respective privacy policies linked above.
-
----
-
-## Changes to this policy
-
-If we introduce features that change our data practices, we will update this page and bump the "Last updated" date. Significant changes will also be noted in the App Store and Google Play release notes.
+For your data rights (GDPR, UK GDPR, CCPA, etc.) and our overall approach to privacy, see the general [Privacy Policy]({{ '/privacy/' | relative_url }}).
 
 ---
 
 ## Contact
 
-Questions about privacy? Email us at [{{ site.email }}](mailto:{{ site.email }}) with the subject line **Stoic Quotes Privacy**.
+Questions about Stoic Quotes specifically? Email [{{ site.email }}](mailto:{{ site.email }}) with the subject line **Stoic Quotes Privacy**.

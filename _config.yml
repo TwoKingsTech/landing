@@ -23,6 +23,7 @@ permalink: pretty
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
